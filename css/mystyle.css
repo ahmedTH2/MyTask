@@ -1,0 +1,241 @@
+.navbar
+{
+    background-color:#278ed3;
+    
+    
+}
+.mynav
+{
+    color: #c7dbdb;
+}
+
+.form-control
+{
+     /* background-color: #7dc3ee;  */
+    border-bottom: none;
+    
+}
+.myTxt
+{
+    font-size: 14px;
+    
+}
+#co
+{
+    color: white;
+}
+
+.search
+{
+   
+  
+    border-bottom: #243342;
+    background-color: #dde4e9;
+ 
+}
+.ToRi
+{
+     padding-right:350px; 
+}
+.btn1
+{
+    background-color: #e4eff6;
+    color: #243342
+    
+} 
+
+.btn
+{
+    background-color: #278ed3;
+    
+} 
+
+
+.myinfo
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carouselExampleControls
+{
+    padding-top: 50px;
+    padding-bottom: 50px;  
+}
+.marq
+{
+    color: black;
+    background-color: #3498db;
+   
+}
+
+.part2
+{
+ background-color: #d6eaf7;
+}
+
+.p1
+{
+font-size:15px;
+text-align: justify;
+line-height: 2em;
+padding-bottom: 1em;
+font-display: block;
+}
+
+.part3
+{
+ background-color: #8eb7f5;
+ 
+}
+
+.part3
+{
+    text-align: justify;
+    line-height: 2em;
+    padding-bottom: 1em;
+    padding-bottom: 1em;
+    font-display: block;
+    }
+
+    .mylist
+    {
+        list-style-type: none;
+    }
+    .wasit
+    {
+        width: 200px;
+    }
+
+    .jender
+    {
+        width: 170px;
+    }
+    .card 
+    {
+        width: 300px;
+    }
+
+    .stage
+    {
+        width: 170px;
+    }
+   .star
+   {
+       color: red;
+   }
+.size
+{
+    font-size: 20px;
+}
+.bord
+{
+    border:violet;
+}
+.news
+{
+background-color: azure;
+}
+.news
+{
+   padding-top: 20px;
+   margin-bottom: 50px;
+   background-color: #ecf0f1;
+}
+.myimg
+{
+    height: 150px;
+}
+.myGraph
+{
+ text-align: justify;
+}
+
+
+.mysize
+{
+    width: 800px;
+    height: 400px;
+}
+
+.footer
+{
+    margin-top: 50px; 
+    margin-bottom: 2px;
+    padding-top: 25px; 
+    background-color: #c5d9f7;
+    color: #ecf0f1; 
+    text-align: center;
+}
+.cc
+{
+    text-align: center;
+    color: red;
+}
+
+.import
+{
+    text-align: justify; 
+}
+
+.mycont
+{
+    background-color: #c7dbdb
+}
+.myform
+{
+    background-color: #eceff1;
+}
+.ff
+{
+
+    color: blue;
+}
+.yy
+{
+
+    color:red;
+}
+.face
+{
+
+    color: rgb(17, 17, 246);
+}
+.fooot
+{
+    color: #241f1f;
+    font-family: fantasy;
+}
+
+.lon
+{
+    color:red;  
+}
+
+.mygraf1
+{
+    color: red
+}
+
+.totop
+{
+   position: -ms-page;
+   position: static;
+}
+
+#btnScroll
+{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    z-index: 99;
+    cursor: pointer;
+    /* padding: 16px; */
+    font-size: 12px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active
+{
+    background-color: #240000; 
+    color: #c0392b;
+}
