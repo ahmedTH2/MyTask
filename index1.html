@@ -16,29 +16,31 @@
     <link rel="stylesheet" href="css/mystyle2.css">
     <link rel="stylesheet" href="css/rtl.css">
     
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
-    <link rel="stylesheet" href="css/skitter.css">
+    <!-- <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/skitter.css"> -->
 
 
     <title>الاقسام الداخلية في جامعة واسط</title>
   </head>
 
-  <body onload="getfiles();">
+    <body onload="getfiles();" class="stickyT">
   
-      <nav class="navbar navbar-expand-lg navbar-light bg-blue fixed-top">
-         <a class="navbar-brand mynav" href="#"> <img src="./img/LOW33.png"> 
+      <nav class="sticky-top navbar navbar-expand-sm navbar-light bg-blue">
+ 
+        <a class="navbar-brand mynav" href="#"> <img src="./img/LOW33.png"></a>
+          
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button> 
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <!-- <li class="nav-item active"> -->
-                <a class="nav-link myTxt" href="#myinfo" style="color:white"><b>الصفحة الرئيسية</b></a>
+              
+                <a class="nav-link myTxt" href="#myinfo" ><b><i class="fas fa-home" size:3x></i> الصفحة الرئيسية</b></a>
               </li>
              
               <li class="nav-item">
-                <a class="nav-link myTxt" href="#part2"><b id="co">مديرية الاقسام الداخلية</b></a>
+                <a class="nav-link myTxt" href="#part2"><b>مديرية الاقسام الداخلية</b></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link myTxt" href="#part3"><b id="co">الضوابط العامة</b></a>
@@ -50,6 +52,9 @@
                   <a class="nav-link myTxt" href="#contact"><b id="co">اتصل بنا</b></a>
                 </li>
                
+                <li class="nav-item">
+                    <a class="nav-link myTxt" href="#c"><b id="cod">Code For Iraq</b></a>
+                  </li>
 
              <li  class="nav-item ToRi">
 
@@ -61,7 +66,7 @@
 
                       <input type="text" class="btn btn-light" placeholder="ابحث هنا" aria-label="Input group example" aria-describedby="btnGroupAddon">
                       <div class="input-group-append">
-                          <button class="btn btn-light" type="button" id="button-addon2"><i class="fas fa-search" size:2x></i></button>
+              <button class="btn btn-light" type="button" id="button-addon2"><i class="fas fa-search" size:2x></i></button>
                         </div>                  
                      
                     </div>
@@ -69,25 +74,23 @@
                 </form> 
 
              </li>  
+            </ul>
+            </div>  
             
              
         </nav>
-
-
-
-
+     
 
 
           <div>
-         <section id="myinfo">
-          <br><br>
-          <br><br>
+         <section id="myinfo" class=" padd2">
+         
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 
   
   
-                <div class="carousel-item active">
+                <div class="carousel-item active ">
                   <img class="d-block w-100 mysize" src="./img/imd7.jpg" alt="First slide">
                 
                 <div class="carousel-caption d-none d-md-block">
@@ -174,13 +177,22 @@
             
 
          <section class="part2" id="part2">
-            <div class="container paeg2">
+            <div class="container paeg2 padd">
               <br>
+
+
+              
+
               <div class="media">
-         
-                  <div class="media-body">
-                     
+                  <div class="container">
                     <h5 class="mt-0 mb-1" style="color:blue"> مديرية الأقسام الداخلية</h5>
+                    <br>
+                      <div class="row">
+                        <div class="col">
+         
+                
+                     
+                    
                     <p class="p1">
                         على الرغم من الظروف المعروفة التي يمر بها
                          البلد والواقع الصعب الذي تعاني منه الأقسام الداخلية في معظم الجامعات 
@@ -202,11 +214,16 @@
                          التي افتتحت في المدينة هذا العام وتم تأثيثها وتجهيزها بأحدث التجهيزات .
            
                        </p>
+                  
                   </div>
-                  <img class="align-self-center mr-3" src="./img/imd6.JPG" alt="Generic placeholder image">
+                  <div class="col">
+                  <img class="align-self-center mr-3" src="./img/imd6.JPG" alt="Generic placeholder image" style="width:500px; height:400px">
                 </div>
+                </div>
+                </div>
+              </div>
             </div>
-
+           
          </section>
            <br>
 
@@ -216,10 +233,11 @@
             
 
     <section class="part3" id="part3">
-      <div class="container paeg3">
+      <div class="container paeg3 padd">
         <br>
 
-        <p class="p3">ضوابط السكن في الأقسام الداخلية</p> 
+        <h5 style="color:blue">ضوابط السكن في الأقسام الداخلية</h5> 
+        <br>
         <p class="p3">1- ينظم طلب القبول للسكن في القسم الداخلي باستمارة خاصة تعد لهذا الغرض.</p>
         <p class="p3">2- يسكن في القسم الداخلي طلبة الجامعة / الهيئة الذين ينتمون إليها من الدراسات الصباحية او المسائية ( ان توفر المكان ) لقاء الاجور المحددة وحسب التعليمات .</p>
         <p class="p3">3- لا يسمح للطالب أو الطالبة بالسكن في القسم الداخلي آذ كانت كليته أو معهده في المدينة التي تسكن أسرته فيها ألا في الحالات الاستثنائية وبموافقة السيد رئيس الجامعة أو من يخوله.</p>
@@ -233,7 +251,7 @@
                       
         <br><br>
 
-        <a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light lon" href="#stmara">إضغط للموافقة والانتقال لمليء بيانات التقديم </a>
+        <a class="stm" href="#stmara">إضغط للموافقة والانتقال لمليء بيانات التقديم </a>
         
 <br><br><br>
 
@@ -249,7 +267,7 @@
             <br>
 
 
-            <div class="container">
+            <div class="container  padd">
               <br>
               <h5>يرجى ملى الاستمارة بالمعلومات المطلوبة والصحيحة</h5>
              <br> <br>
@@ -401,16 +419,24 @@
 
                  
             <div class="container bord">
+              
             <h5>رفع الصور والمستمسكات الثبوتية</h5>
             <p>______________________________________________________________________________________________________________________________________________</p>
             <br>
+            <div class="row">
+              <div class="col">
             <label><b>رفع صورة شخصية</b><span class="gfield_required star"> * </span></label>
-            <br><br>
+       
             <div class="ginput_container ginput_container_fileupload"><input type="hidden" name="MAX_FILE_SIZE" value="1048576"><input name="input_48" id="input_34_48" type="file" class="medium" aria-describedby="extensions_message_34_48" onchange="javascript:gformValidateFileSize( this, 1048576 );">
-            <br><br>
-            <span id="extensions_message_34_48" class="screen-reader-text"><small>صيغ الملفات المسموحة</small> jpg , png</span><div class="validation_message"></div></div>
-            <br><br>
+            
+            <span id="extensions_message_34_48" class="screen-reader-text">
+              <br>
+              <small>صيغ الملفات المسموحة</small> jpg , png</span>
+              <div class="validation_message"></div></div>
+            </div>
 
+           
+              <div class="col">
             <label><b>رفع المستمسكات الثبوتية</b><span class="gfield_required star"> * </span></label>
             <br>
             
@@ -423,7 +449,7 @@
                    if(all.files.length == 0)
                    
                    {
-                      window.txt.innerHTML = "الرجاء رفع المستمسكات الثبوتية ( نسخة امامية وخلفية )";
+                      window.txt.innerHTML = "الرجاء رفع المستمسكات الثبوتية / نسخة امامية وخلفية";
                    }
                    else
                      {
@@ -440,23 +466,31 @@
                      }
                }
               </script>
-              <br>
+              </div>
+              
 
-
+                 
+              
+                  <div class="col">
               <li id="field_34_46" class="mylist gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label"><b>تأكيد المعلومات</b><span class="gfield_required star"> * </span></label><div class="ginput_container ginput_container_checkbox"><ul class="gfield_checkbox" id="input_34_46">
                 <li class="mylist gchoice_34_46_1">
                 <input name="input_46.1" type="checkbox" value="تعهد" id="choice_34_46_1">
                 <label for="choice_34_46_1" id="label_34_46_1">اؤكد صحة المعلومات أعلاه</label>
                 </li></ul></div></li>
 
-                <button type="submit" class="btn btn-light">ارسال</button>
-
+                
 
                    
                 </div>
               </div>
+              
+                
+         <!-- <button type="submit" class="btn btn-light" style="background-color:#278ed3;">ارسال</button> -->
+         <button type="button" style="background-color:#278ed3;" class="btn btn-light">ارسال</button>
+         </div>
+         
+<br><br>
       
-      <br><br> 
     </section>
     <br>
  
@@ -464,10 +498,10 @@
     <section id="news" class="news">
         
 
-      <div class="container">
+      <div class="container padd3">
         
     
-          <marquee><h3 class="mygraf cc">اخر اخبار جامعة واسط</h3></marquee>
+          <marquee><h5 class="mygraf cc">اخر اخبار جامعة واسط</h5></marquee>
 
                                         <br> <br>
 
@@ -521,10 +555,10 @@
     <section id="contact" class="mycont">
 
         <br>
-           <div class="container">
+           <div class="container padd">
        
        
-               <h2 class="mygraf apple" align="center">اتصل بنا  </h2>
+               <h2 class="mygraf apple" align="center" style="color:blue">اتصل بنا  </h2>
        
                                 <br> <br> 
        
@@ -574,7 +608,36 @@
          </div>    
          <br><br>           
        </section>
+       <br>
        
+       <section class="part c" id="c">
+          <div class="container paeg3 padd">
+            <br>
+
+               
+               <h5 class="cd" style="color:blue" align="center">Code <span style="color:red">For</span> Iraq</h5> 
+               <br>
+               <div class="row">
+               
+                  <div class="col"> 
+                    
+            
+         
+                
+            <p class="p3 c">وهي مبادرة إنسانية غير ربحية تهدف الى خدمة المجتمع عن طريق البرمجة تعتبر هذه المبادرة مبادرة تعليمية حقيقية ترعى المهتمين بتعلم تصميم وبرمجة تطبيقات الهاتف الجوال ومواقع الانترنت وبرامج الحاسوب والشبكات والاتصالات ونظم تشغيل الحاسوب باستخدام التقنيات مفتوحة المصدر ، كما توفر لهم جميع الدروس التعليمية اللازمة وبشكل مجاني تماماً بل الاهم من ذلك تعتمد على مبدأ المواطنة والمشاركة الفاعلة في تأسيس وبناء المجتمع تدعو هذه المبادرة جميع الطلبة والخريجين والهواة والأساتذة الجامعيين والمهتمين مجال البرمجة وتقنيات المعلومات وكذلك الاختصاصات الاخرى الى التطوع والمشاركة الفعلية لأجل الارتقاء بواقع البلد ، حيث تعتبر فرصة عظيمة لاكتساب الخبرة والمهارة عن طريق تصميم وتنفيذ برامج وتطبيقات خدمية من شأنها خدمة المواطن وذلك ضمن مجاميع عمل نشطة وفعّالة يتعاون فيها جميع الأفراد كفريق واحد يتبادل الاراء والخبرات ويطرح الافكار لتتم مناقشتها وتطبيقها على أرض الواقع ، كما تفتح المجال لجميع المواطنين العراقيين ومن جميع الاختصاصات إلى المشاركة الفاعلة في هذه المشاريع لرفد الفريق بالخبرات والافكار والاراء والمقترحات التي من شأنها خدمة المجتمع بأفضل ما يمكن. </p>
+                     </div>
+                     
+              
+                     <div class="col">
+                        <img src="./img/cfi.jpg"  align="center" height="410px" class="CodeForIraq">
+                        </div>
+          </div>
+          
+       </section>
+
+
+
+
 
 
 
@@ -631,9 +694,9 @@
               </div>
 
               <br>
-
-
-          </div>
+            </div>
+      <p class="fooot" align="left" style="padding:10px;">Copyright &copy; For<span style="color:red"> Code For Iraq</span> By ahmed abed <span style="color:red">2018</span> </p>   
+          
     </section>
  
      
@@ -641,15 +704,13 @@
    
 
               
-     <footer id="foot2">
+    
        
-      <p class="fooot" align="left" style="padding:10px;">Copyright &copy; For<span style="color:red"> Code For Iraq</span> By ahmed abed <span style="color:red">2018</span> </p>   
-     </footer>
-
+     
 
             
 
-      <button type="button" id="btnScroll" class="btn btn-warning totop" onclick="toUp()" style="display: block;"><i>اعلى الصفحة</i>
+      <button type="button" id="btnScroll" class="btn3 btn-light totop" onclick="toUp()" style="display: block;"><i>اعلى الصفحة</i>
      </button>  
 
 

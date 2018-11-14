@@ -1,17 +1,25 @@
 .navbar
 {
     background-color:#278ed3;
-    
-    
+    height:14%;
+    background-size: cover;
+    ruby-position: inline
+
+
 }
 .mynav
 {
     color: #c7dbdb;
+    
+}
+.stickyT
+{
+     /* padding-bottom: 100px; */
 }
 
 .form-control
 {
-     /* background-color: #7dc3ee;  */
+      background-color: #7dc3ee; 
     border-bottom: none;
     
 }
@@ -19,11 +27,14 @@
 {
     font-size: 14px;
     
+    
 }
-#co
+ #cod
 {
-    color: white;
-}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    
+} 
 
 .search
 {
@@ -35,7 +46,7 @@
 }
 .ToRi
 {
-     padding-right:350px; 
+     padding-right:20px; 
 }
 .btn1
 {
@@ -46,9 +57,15 @@
 
 .btn
 {
-    background-color: #278ed3;
+    background-color: white;
     
 } 
+
+.btn3
+{
+    background-color:#278ed3;
+}
+
 
 
 .myinfo
@@ -59,7 +76,7 @@
 
 .carouselExampleControls
 {
-    padding-top: 50px;
+   
     padding-bottom: 50px;  
 }
 .marq
@@ -85,8 +102,13 @@ font-display: block;
 
 .part3
 {
- background-color: #8eb7f5;
+ background-color: #9ec1f6;
  
+}
+.stm
+{
+   color: white; 
+   font-size: 17px;
 }
 
 .part3
@@ -227,15 +249,52 @@ background-color: azure;
 {
     display: none;
     position: fixed;
-    bottom: 30px;
+    bottom: 35px;
     z-index: 99;
     cursor: pointer;
-    /* padding: 16px; */
+    padding: 8px; 
     font-size: 12px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active
 {
-    background-color: #240000; 
+    background-color: #d9e2eb;
     color: #c0392b;
+    font-feature-settings: "abvf"
+}
+
+.cfi
+{
+    text-align: justify;
+
+}
+.CodeForIraq
+{
+  display: table-header-group
+} 
+.c
+{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 2em;
+   
+  
+    font-display: block;
+}
+.cd
+{
+ font-family: fantasy;
+ font-size: 37px
+}
+.padd
+{
+    padding-top: 85px;
+}
+.padd2
+{
+    padding-top: 75px;
+}
+.padd3
+{
+    padding-top: 95px;
 }
