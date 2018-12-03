@@ -19,13 +19,19 @@
     <!-- <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/skitter.css"> -->
 
+    <style>
+      us:hover {
+          background-color: yellow;
+      }
+      </style>
+
 
     <title>الاقسام الداخلية في جامعة واسط</title>
   </head>
 
-    <body onload="getfiles();" class="stickyT">
+    <body onload="getfiles();">
   
-      <nav class="sticky-top navbar navbar-expand-sm navbar-light bg-blue">
+      <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-blue">
  
         <a class="navbar-brand mynav" href="#"> <img src="./img/LOW33.png"></a>
           
@@ -36,14 +42,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               
-                <a class="nav-link myTxt" href="#myinfo" ><b><i class="fas fa-home" size:3x></i> الصفحة الرئيسية</b></a>
+                <a class="nav-link myTxt" href="#myinfo" ><b> الصفحة الرئيسية</b></a>
               </li>
              
               <li class="nav-item">
                 <a class="nav-link myTxt" href="#part2"><b>مديرية الاقسام الداخلية</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link myTxt" href="#part3"><b id="co">الضوابط العامة</b></a>
+                <a class="nav-link myTxt" href="#part3"><b id="co"><i class="fas fa-bars" size:7x style="padding:1px"></i> الضوابط العامة</b></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link myTxt" href="#news"><b id="co">اخبار جامعة واسط</b></a>
@@ -53,7 +59,7 @@
                 </li>
                
                 <li class="nav-item">
-                    <a class="nav-link myTxt" href="#c"><b id="cod">Code For Iraq</b></a>
+                    <a class="nav-link myTxt" href="#c"><b id="cod co">Code For Iraq</b></a>
                   </li>
 
              <li  class="nav-item ToRi">
@@ -64,7 +70,7 @@
 
                   <div class="input-group mb-3">
 
-                      <input type="text" class="btn btn-light" placeholder="ابحث هنا" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                      <input type="text" class="btn btn-light btnNew" placeholder="ابحث هنا" aria-label="Input group example" aria-describedby="btnGroupAddon">
                       <div class="input-group-append">
               <button class="btn btn-light" type="button" id="button-addon2"><i class="fas fa-search" size:2x></i></button>
                         </div>                  
@@ -188,7 +194,7 @@
                     <h5 class="mt-0 mb-1" style="color:blue"> مديرية الأقسام الداخلية</h5>
                     <br>
                       <div class="row">
-                        <div class="col">
+                        <div class="col col-sm-12 col-md-6">
          
                 
                      
@@ -214,15 +220,17 @@
                          التي افتتحت في المدينة هذا العام وتم تأثيثها وتجهيزها بأحدث التجهيزات .
            
                        </p>
+                     
                   
                   </div>
-                  <div class="col">
+                  <div class="col col-sm-12 col-md-6">
                   <img class="align-self-center mr-3" src="./img/imd6.JPG" alt="Generic placeholder image" style="width:500px; height:400px">
                 </div>
                 </div>
                 </div>
               </div>
             </div>
+            </section>
            
          </section>
            <br>
@@ -236,7 +244,7 @@
       <div class="container paeg3 padd">
         <br>
 
-        <h5 style="color:blue">ضوابط السكن في الأقسام الداخلية</h5> 
+        <h5 style="color:white">ضوابط السكن في الأقسام الداخلية</h5> 
         <br>
         <p class="p3">1- ينظم طلب القبول للسكن في القسم الداخلي باستمارة خاصة تعد لهذا الغرض.</p>
         <p class="p3">2- يسكن في القسم الداخلي طلبة الجامعة / الهيئة الذين ينتمون إليها من الدراسات الصباحية او المسائية ( ان توفر المكان ) لقاء الاجور المحددة وحسب التعليمات .</p>
@@ -359,9 +367,12 @@
                         <br>
                         
                         <div class="row">
-                          <div class="col-sm-12 col-md-4">
-                                <li id="field_34_22" class="mylist gfield gf_right_third gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label" for="input_34_22">الكلية<span class="gfield_required star">*</span></label><div class="ginput_container ginput_container_select"><select name="input_22" id="input_34_22" class="medium gfield_select" aria-required="true" aria-invalid="false"><option value="كلية التربية">كلية التربية</option><option value="كلية العلوم">كلية العلوم</option><option value="كلية الآداب">كلية الآداب</option><option value="كلية الإدارة والإقتصاد">كلية الإدارة والإقتصاد</option><option value="كلية الطب">كلية الطب</option><option value="كلية الهندسة">كلية الهندسة</option><option value="كلية القانون">كلية القانون</option><option value="كلية الزراعة">كلية الزراعة</option><option value="كلية التربية الأساسية">كلية التربية الأساسية</option><option value="كلية الطب البيطري">كلية الطب البيطري</option><option value="كلية طب الأسنان">كلية طب الأسنان</option><option value="كلية الحاسوب وتكنولوجيا المعلومات" selected="selected">كلية الحاسوب وتكنولوجيا المعلومات</option><option value="كلية التربية البدنية وعلوم الرياضة">كلية التربية البدنية وعلوم الرياضة</option><option value="كلية الإعلام">كلية الإعلام</option><option value="كلية الفنون الجميلة">كلية الفنون الجميلة</option><option value="كلية أهلية">كلية أهلية</option></select></div></li>
-                              </div>
+
+                            <div class="col-sm-12 col-md-4">
+                                <li id="field_34_22" class="mylist gfield gf_right_third gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible jender2"><label class="gfield_label" for="input_34_22">الكلية<span class="gfield_required star">*</span></label><div class="ginput_container ginput_container_select"><select name="input_22" id="input_34_22" class="jender2 medium gfield_select" aria-required="true" aria-invalid="false"><option value="كلية التربية">كلية التربية</option><option value="كلية العلوم" selected="selected">كلية العلوم</option><option value="كلية الآداب">كلية الآداب</option><option value="كلية الإدارة والإقتصاد">كلية الإدارة والإقتصاد</option><option value="كلية الطب">كلية الطب</option><option value="كلية الهندسة">كلية الهندسة</option><option value="كلية القانون">كلية القانون</option><option value="كلية الزراعة">كلية الزراعة</option><option value="كلية التربية الأساسية">كلية التربية الأساسية</option><option value="كلية الطب البيطري">كلية الطب البيطري</option><option value="كلية طب الأسنان">كلية طب الأسنان</option><option value="كلية الحاسوب وتكنولوجيا المعلومات">كلية الحاسوب وتكنولوجيا المعلومات</option><option value="كلية التربية البدنية وعلوم الرياضة">كلية التربية البدنية وعلوم الرياضة</option><option value="كلية الإعلام">كلية الإعلام</option><option value="كلية الفنون الجميلة">كلية الفنون الجميلة</option><option value="كلية أهلية">كلية أهلية</option></select></div></li>
+          
+                                </div>
+
                               <div class="col-sm-12 col-md-4">
                                 <li id="field_34_23" class="mylist gfield gf_middle_third gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label" for="input_34_23">القسم العلمي<span class="gfield_required star">*</span></label><div class="ginput_container ginput_container_text"><input name="input_23" id="input_34_23" type="text" value="" class="medium" aria-required="true" aria-invalid="false"></div></li>
                               </div>
@@ -507,10 +518,16 @@
 
                     
 
-          <div class="card-deck">
+          <div class="card-deck"> 
+              <div class="row"> 
+                  <div class="foot col-sm-12 col-lg-4"> 
             <div class="card wow bounceInUp">
               <img class="card-img-top myimg" src="./img/un5.jpg" alt="Card image cap">
-              <div class="card-body">
+              
+
+
+           
+                <div class="card-body">
                 <h5 class="card-title ff">مركز التعليم المستمر يقيم دورة تطويرية</h5>
                 <p class="card-text myGraph">قام مركز التعليم المستمر في جامعة واسط دورة تطويرية
                   حول الإرشاد والإشراف على طلبة الاقسام الداخلية بمشاركة خمسة وعشرون مشرفا ومشرفة.
@@ -522,6 +539,15 @@
                 <small class="text-muted ff">آخر تحديث قبل 3 دقائق</small>
               </div>
             </div>
+            </div>
+              
+              
+      
+      
+
+
+               <!-- <div class="row">  -->
+                  <div class="foot col-sm-12 col-lg-4">
             <div class="card wow bounceInUp" data-wow-delay="1s">
               <img class="card-img-top myimg" src="./img/un3.jpg" alt="Card image cap">
               <div class="card-body">
@@ -532,6 +558,15 @@
                 <small class="text-muted ff">آخر تحديث قبل 3 دقائق</small>
               </div>
             </div>
+                  </div>
+              <!-- </div> -->
+     
+      
+         
+      
+            
+           <!-- <div class="row">  -->
+                  <div class="foot col-sm-12 col-lg-4"> 
             <div class="card wow bounceInUp" data-wow-delay="2s">
               <img class="card-img-top myimg" src="./img/un.jpg" alt="Card image cap">
               <div class="card-body">
@@ -541,14 +576,26 @@
               </div>
               <div class="card-footer `">
                   <small class="text-muted">آخر تحديث قبل 3 دقائق</small>
-                </div>
+                <!-- </div> -->
           </div>
-          </div>
+          </div> 
       
 
         </div> 
+        </div>
+      </div> 
+
+    </div>
+    
       <br>
     </section>
+
+
+
+
+
+
+
 
 
 
@@ -558,7 +605,7 @@
            <div class="container padd">
        
        
-               <h2 class="mygraf apple" align="center" style="color:blue">اتصل بنا  </h2>
+               <h2 class="mygraf apple" align="center" style="color:black">اتصل بنا  </h2>
        
                                 <br> <br> 
        
@@ -587,18 +634,18 @@
              
 
              <div class="col-sm-12 col-md-6">
-               <p style="color:rgb(37, 37, 245)"> العنـــوان</p>
+               <p style="color:black"><b>العنـــوان</b></p>
                
                <ul class="mylist">
                    <li> واسط - الكوت - حي الربيع</li>
-                   <li >البريد الالكتروني : <p style="color:rgb(31, 31, 243)">Internal.sections@gmail.com</p> </li>
+                   <li >البريد الالكتروني : <a href="https://www.uowasit.edu.iq">Internal.sections@gmail.com</a></p> </li>
                    <li>هاتف : 1234567890</li>
                             <br>
                         
                    <li>
-                    <a href="http://www.facebook.com"><i class="fab fa-facebook-f fa-stroopwafel fa-5x face"></i></a>
-                     <a href="http://www.twitter.com"><i class="fab fa-twitter fa-stroopwafel fa-5x"></i></a>
-                     <a href="http://www.youtube.com"><i class="fab fa-youtube fa-stroopwafel fa-5x yy"></i></a>
+                    <a href="http://www.facebook.com"><i class="fab fa-facebook-f fa-stroopwafel fa-2x face"></i></a>
+                     <a href="http://www.twitter.com"><i class="fab fa-twitter fa-stroopwafel fa-2x"></i></a>
+                     <a href="http://www.youtube.com"><i class="fab fa-youtube fa-stroopwafel fa-2x yy"></i></a>
                    </li>
        
                  </ul>
@@ -619,7 +666,7 @@
                <br>
                <div class="row">
                
-                  <div class="col"> 
+                  <div class="col col-sm-12 col-md-6"> 
                     
             
          
@@ -628,7 +675,7 @@
                      </div>
                      
               
-                     <div class="col">
+                     <div class="col col-sm-12 col-md-6">
                         <img src="./img/cfi.jpg"  align="center" height="410px" class="CodeForIraq">
                         </div>
           </div>
@@ -672,7 +719,7 @@
                     <div class="foot col-sm-12 col-md-4">
                   
               <ul class="mylist fixlist import">
-                <li> <a href="http://www.uowasit.edu.iq/"><h6>جامعة واسط</a></h6> </li>
+                <li> <a href="http://www.uowasit.edu.iq/" ><h6>جامعة واسط</a></h6> </li>
                 <li> <a href="http://uobaghdad.edu.iq/"><h6>جامعة بغداد</a></h6></li>
                 <li> <a href="http://www.uobasrah.edu.iq/"><h6>جامعة البصرة</a></h6></li>
                  </ul>
@@ -695,7 +742,7 @@
 
               <br>
             </div>
-      <p class="fooot" align="left" style="padding:10px;">Copyright &copy; For<span style="color:red"> Code For Iraq</span> By ahmed abed <span style="color:red">2018</span> </p>   
+      <p class="fooot" align="left" style="padding:10px;"><b>Copyright &copy; For Code For Iraq By ahmed abed 2018</b></p>   
           
     </section>
  
@@ -710,9 +757,8 @@
 
             
 
-      <button type="button" id="btnScroll" class="btn3 btn-light totop" onclick="toUp()" style="display: block;"><i>اعلى الصفحة</i>
-     </button>  
-
+    <button type="button" id="btnScroll" class="btn btn-light" onclick="toUp()" style="display: block;"><i class="fa fa-arrow-circle-up fa-2x"></i>
+    </button>
 
      <br>
      

@@ -3,7 +3,9 @@
     background-color:#278ed3;
     height:14%;
     background-size: cover;
-    ruby-position: inline
+    ruby-position: inline;
+    padding: 5px;
+   
 
 
 }
@@ -12,10 +14,14 @@
     color: #c7dbdb;
     
 }
-.stickyT
+#actv
 {
-     /* padding-bottom: 100px; */
+    color: #c7dbdb;
 }
+/* .stickyT
+{
+     /* padding-bottom: 100px; 
+} */
 
 .form-control
 {
@@ -25,10 +31,10 @@
 }
 .myTxt
 {
-    font-size: 14px;
-    
-    
+    font-size: 12.5px;   
 }
+
+
  #cod
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -36,18 +42,14 @@
     
 } 
 
-.search
+/* .search
 {
-   
-  
-    border-bottom: #243342;
-    background-color: #dde4e9;
- 
-}
-.ToRi
+    padding-left: 10px;
+}  */
+ .ToRi
 {
-     padding-right:20px; 
-}
+     padding-right:50px; 
+} 
 .btn1
 {
     background-color: #e4eff6;
@@ -57,13 +59,16 @@
 
 .btn
 {
-    background-color: white;
-    
+    background-color: white;    
 } 
+.btnNew
+{
+    width: 150px;
+}
 
 .btn3
 {
-    background-color:#278ed3;
+    background-color:#ffffff;
 }
 
 
@@ -102,7 +107,7 @@ font-display: block;
 
 .part3
 {
- background-color: #9ec1f6;
+ background-color: #c5d8f5f6;
  
 }
 .stm
@@ -125,6 +130,10 @@ font-display: block;
         list-style-type: none;
     }
     .wasit
+    {
+        width: 200px;
+    }
+    .jender2
     {
         width: 200px;
     }
@@ -185,7 +194,7 @@ background-color: azure;
     margin-top: 50px; 
     margin-bottom: 2px;
     padding-top: 25px; 
-    background-color: #c5d9f7;
+    background-color: #f0f5fc;
     color: #ecf0f1; 
     text-align: center;
 }
@@ -202,7 +211,7 @@ background-color: azure;
 
 .mycont
 {
-    background-color: #c7dbdb
+    background-color: #e0f1ffa9
 }
 .myform
 {
@@ -216,17 +225,18 @@ background-color: azure;
 .yy
 {
 
-    color:red;
+    color:rgb(241, 37, 37);
 }
-.face
+/* .face
 {
 
-    color: rgb(17, 17, 246);
-}
+    color: #1a63b6
+} */
 .fooot
 {
-    color: #241f1f;
-    font-family: fantasy;
+    color: #1f2024;
+    font-style: oblique;
+    font-size: 15px;  
 }
 
 .lon
@@ -236,30 +246,30 @@ background-color: azure;
 
 .mygraf1
 {
-    color: red
+    color: black;
 }
 
-.totop
+/* .totop
 {
    position: -ms-page;
    position: static;
-}
+} */
 
 #btnScroll
 {
-    display: none;
+   
     position: fixed;
-    bottom: 35px;
+    bottom: 30px;
     z-index: 99;
     cursor: pointer;
-    padding: 8px; 
-    font-size: 12px;
+    padding: 15px; 
+  
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active
+ .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active
 {
-    background-color: #d9e2eb;
-    color: #c0392b;
+    background-color: white;
+    color: #2f8cf6;
     font-feature-settings: "abvf"
 }
 
